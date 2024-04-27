@@ -1,9 +1,9 @@
 public class OrderTest {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         Order order = new OrderAction();
-        Invoice invoice = new GenerateInvoice();
-        EmailNotification emailNotification = new SendEmailNotification();
+        GenerateInvoice invoice = new InvoiceGenerate();
+        SendEmailNotification emailNotification = new EmailNotificationSend();
 
         order.calculateTotal(10.0, 2);
         order.placeOrder("John Doe", "123 Main St");
