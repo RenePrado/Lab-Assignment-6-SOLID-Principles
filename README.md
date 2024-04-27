@@ -1,5 +1,8 @@
 # Lab-Assignment-6-Solid-Principles
 
+![image](https://github.com/RenePrado/Lab-Assignment-6-SOLID-Principles/assets/152822689/16084607-b231-4853-9c81-f6614a5b7623)
+
+
 Improve the following codes to implement SOLID principles in OOP.
 
 
